@@ -1,5 +1,26 @@
-/* HEADER */
 
+
+
+/* HEADER */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    align-items: center;
+}
+
+.header__block1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.header__block3 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-items: end;
+}
 
 
 /* PART 1*/
@@ -164,3 +185,18 @@
 
 
 /* FOOTER */
+.container {
+    display: grid;
+    grid-template-rows: 60% 1fr 1fr;
+    justify-items: center;
+}
+
+.footer__block1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer__small-block {
+    display: grid;
+
+}
