@@ -139,9 +139,36 @@
 }
 /* PART 3 */
 
-
-
-
+.main-parte3_Features{
+display: flex;
+justify-content:center;
+align-items:center;
+font-family: 'Arial';
+font-style: 'Semi Bold';
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: -1px;
+color: #18216D ;
+}
+.main-parte3_Features-text{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 542px;
+    height: 60px;
+    font-family: 'Arial';
+    font-style: 'regular';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #18216D;
+}
+.main-parte3_labels{
+    display: flex;
+    justify-content: space-around;  
+}
+.
 /* PART 4 */
 
 
