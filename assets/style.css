@@ -215,8 +215,23 @@ color: #18216D ;
     width: 300px;
 }
 /* PART 4 */
+.main-parte4{
+background: #005FEC;    
+opacity: 0.05;
+    
+}
+.main-parte4_title{
+    
+    display: flex;
+    justify-content: start;
+    align-content: center ;  
 
-
+}
+.screen_vineo{
+    display: flex;
+    justify-content: end;   
+    
+}
 
 
 /* PART 5 */
