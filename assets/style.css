@@ -360,7 +360,6 @@ opacity: 0.05;
 /* FOOTER */
 .container {
     display: grid;
-    grid-template-rows: 60% 1fr 1fr;
     justify-items: center;
 }
 
