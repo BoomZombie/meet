@@ -427,9 +427,6 @@ padding: 50px;
 /* PART 7 */
 .flex-container {
     display: flex;
-}
-
-div {
     color: #18216D;
     font-family: 'Inter';
     font-style: normal;
