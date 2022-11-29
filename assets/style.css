@@ -202,6 +202,8 @@ color: #18216D ;
     padding-bottom: 50px;
 }
 .main-parte3__labels_percent_title{
+    FONT-WEIGHT: 200;
+    padding-top: 30px;
     font-weight: 600;
     font-size: 24px;
 }
