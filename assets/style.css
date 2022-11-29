@@ -163,8 +163,7 @@ a {
     top: 968.49px;
 }
 /* PART 3 */
-
-.main-parte3_Features{
+.main-parte3__Features{
 display: flex;
 justify-content:center;
 align-items:center;
@@ -176,8 +175,7 @@ line-height: 64px;
 letter-spacing: -1px;
 color: #18216D ;
 }
-.main-parte3_Features-text{
-   
+.main-parte3__Features-text{
     font-family: 'Arial';
     font-style: 'regular';
     text-align: center;
@@ -185,53 +183,92 @@ color: #18216D ;
     font-size: 16px;
     line-height: 30px;
     color: #18216D;
+    padding-bottom: 50px;
 }
-.main-parte3_labels{
+.main-parte3__labels{
     display: flex;
     justify-content: space-around; 
     font-family: 'Arial';
     color: #18216D;
+    text-decoration: none;
+    padding-bottom: 50px;
 }
-.main-parte3_labels_percent_title{
+.main-parte3__labels_percent_title{
     font-weight: 600;
     font-size: 24px;
 }
-.main-parte3_labels_percent_text{
+.main-parte3__labels_percent_text{
+    opacity: 0.6;
+    font-size: 16px;
+    width: 300px;
+
+}
+.main-parte3__labels_round1_title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.main-parte3__labels_round1_text{
     opacity: 0.6;
     font-size: 16px;
     width: 300px;
 }
-.main-parte3_labels_round1_title{
+.main-parte3__labels_round2_title{
     font-weight: 600;
     font-size: 24px;
 }
-.main-parte3_labels_round1_text{
-    opacity: 0.6;
-    font-size: 16px;
-    width: 300px;
-}
-.main-parte3_labels_round2_title{
-    font-weight: 600;
-    font-size: 24px;
-}
-.main-parte3_labels_round2_text{
+.main-parte3__labels_round2_text{
     opacity: 0.6;
     font-size: 16px;
     width: 300px;
 }
 /* PART 4 */
 .main-parte4{
-background: #005FEC;    
-opacity: 0.05;
-    
+display: flex ;
+justify-content: center;   
+background-color:rgba(0, 95, 236, 0.05);;
+padding: 50px;
 }
-.screen_vineo{
-    display: flex;
+.main-parte4__article{
+    padding: 90px;
+display: block;
+align-content: center;
+font-style: 'regular';
+text-align: center;
+margin:auto ;
+font-family: 'Arial';
+color: #18216D;
+text-align: left;
+}
+.main-parte4__article-title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.main-parte4__article-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.main-parte4__button{
+    margin: 20px;
+    width: 160px;
+    height: 52px;
+    left: 578px;
+    top: 2905px;
+    background: #005FEC;
+    border-radius: 6px;
+    border-color: #DAE9FF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.main-parte4__screen_vineo{
+    
     justify-content: end;   
     
 }
-
-
 /* PART 5 */
 .main-parte5{
     display: flex;
