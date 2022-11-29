@@ -25,6 +25,14 @@
 a {
     text-decoration: none;
 }
+.circle{
+    float: left;
+    position: absolute;
+    z-index: 100;
+    background: url(/assets/images/Ellipse.png);
+    width: 766px;
+    height: 766px;
+}
 
 
 /* PART 1*/
@@ -294,7 +302,7 @@ padding: 50px;
     width: 184px;
     height: 150px;
     left: 460px;
-    top:1990px;
+    top:2590px;
     background: #FFFFFF;
     box-shadow: -4px 8px 20px rgba(24, 33, 109, 0.05);
     border-radius: 6px;
@@ -306,7 +314,7 @@ padding: 50px;
     left: 578px;
     top: 2905px;
     background: #DAE9FF;
-    border-radius: 4px;
+    border-radius: 4px; 
     border-color: #DAE9FF;
     font-family: 'Inter';
     font-style: normal;
@@ -378,15 +386,66 @@ padding: 50px;
     color: #FFFFFF;
 }
 /* PART 6 */
+.col-4 {
+    border-radius: 10px;
+    border: #232629;
+}
 
+div {
+    color: #18216D;
+    font-family: 'Inter';
+    font-style: normal;
+}
 
+.text-center {
+    margin: 3rem;
+}
 
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('/assets/buttons.png') no-repeat;
+    width: 272px;
+    height: 60px;
+}
+
+.button {
+    width: 135px;
+    height: 48px;
+    color: #18216D;
+    border: none;
+    background-color: transparent;
+}
+
+.clicked {
+    background: white;
+    border-radius: 6px;
+    color: #005FEC;
+}
 
 /* PART 7 */
+.flex-container {
+    display: flex;
+}
 
+div {
+    color: #18216D;
+    font-family: 'Inter';
+    font-style: normal;
+}
 
+.testimonial { 
+    margin: 200px;
+}
 
+p {
+    font-style: italic;
+}
 
+#circle {
+    margin: 100px;
+} 
 
 /* FOOTER */
 .container {
