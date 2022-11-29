@@ -230,14 +230,14 @@ padding: 50px;
 }
 .main-parte4__article{
     padding: 90px;
-display: block;
-align-content: center;
-font-style: 'regular';
-text-align: center;
-margin:auto ;
-font-family: 'Arial';
-color: #18216D;
-text-align: left;
+    display: block;
+    align-content: center;
+    font-style: 'regular';
+    text-align: center;
+    margin:auto ;
+    font-family: 'Arial';
+    color: #18216D;
+    text-align: left;
 }
 .main-parte4__article-title{
     font-weight: 600;
@@ -267,7 +267,7 @@ text-align: left;
 .main-parte4__screen_vineo{
     
     justify-content: end;   
-    
+
 }
 /* PART 5 */
 .main-parte5{
