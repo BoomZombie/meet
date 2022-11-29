@@ -22,6 +22,10 @@
     justify-items: end;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* PART 1*/
 .main-parte1{
@@ -356,7 +360,6 @@ opacity: 0.05;
 /* FOOTER */
 .container {
     display: grid;
-    grid-template-rows: 60% 1fr 1fr;
     justify-items: center;
 }
 
