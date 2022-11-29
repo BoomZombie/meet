@@ -202,18 +202,19 @@ color: #18216D ;
     padding-bottom: 50px;
 }
 .main-parte3__labels_percent_title{
-    FONT-WEIGHT: 200;
     padding-top: 30px;
     font-weight: 600;
     font-size: 24px;
 }
 .main-parte3__labels_percent_text{
+    
     opacity: 0.6;
     font-size: 16px;
     width: 300px;
 
 }
 .main-parte3__labels_round1_title{
+    padding-top: 30px;
     font-weight: 600;
     font-size: 24px;
 }
@@ -223,6 +224,7 @@ color: #18216D ;
     width: 300px;
 }
 .main-parte3__labels_round2_title{
+    padding-top: 30px;
     font-weight: 600;
     font-size: 24px;
 }
@@ -257,9 +259,10 @@ padding: 50px;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+    margin-right: 90px;
 }
 .main-parte4__button{
-    margin: 20px;
+    margin-top: 20px;
     width: 160px;
     height: 52px;
     left: 578px;
