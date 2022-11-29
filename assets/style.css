@@ -386,15 +386,66 @@ text-align: left;
     color: #FFFFFF;
 }
 /* PART 6 */
+.col-4 {
+    border-radius: 10px;
+    border: #232629;
+}
 
+div {
+    color: #18216D;
+    font-family: 'Inter';
+    font-style: normal;
+}
 
+.text-center {
+    margin: 3rem;
+}
 
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('/assets/buttons.png') no-repeat;
+    width: 272px;
+    height: 60px;
+}
+
+.button {
+    width: 135px;
+    height: 48px;
+    color: #18216D;
+    border: none;
+    background-color: transparent;
+}
+
+.clicked {
+    background: white;
+    border-radius: 6px;
+    color: #005FEC;
+}
 
 /* PART 7 */
+.flex-container {
+    display: flex;
+}
 
+div {
+    color: #18216D;
+    font-family: 'Inter';
+    font-style: normal;
+}
 
+.testimonial { 
+    margin: 200px;
+}
 
+p {
+    font-style: italic;
+}
 
+#circle {
+    margin: 100px;
+} 
 
 /* FOOTER */
 .container {
