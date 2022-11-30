@@ -574,6 +574,7 @@ p {
     line-height: 40px;
     color: #141736;
     opacity: 0.9;
+    gap: 75px;
 }
 
 .footer__small-block {
