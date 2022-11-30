@@ -106,6 +106,24 @@ height: 5354px;
     gap: 40px;
 }
 
+.header-link__signin {
+    position: absolute;
+width: 58px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+right: 281px;
+/* identical to box height, or 111% */
+
+
+/* navy blue */
+
+color: #18216D;
+}
+
 a {
     font-style: normal;
     font-weight: 400;
@@ -113,6 +131,24 @@ a {
     line-height: 40px;
     color: #141736;
     opacity: 0.9;
+}
+
+.header__button {
+    position: absolute;
+width: 136px;
+height: 52px;
+background: #18216D;
+border-radius: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+right: 100px;
+/* identical to box height, or 118% */
+
+
+color: #FFFFFF;
 }
 
 .circle{
