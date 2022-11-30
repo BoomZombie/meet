@@ -108,19 +108,14 @@ height: 5354px;
 
 .header-link__signin {
     position: absolute;
-width: 58px;
-height: 20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 20px;
-right: 281px;
-/* identical to box height, or 111% */
-
-
-/* navy blue */
-
+    width: 58px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    right: 281px;
 color: #18216D;
 }
 
@@ -135,19 +130,16 @@ a {
 
 .header__button {
     position: absolute;
-width: 136px;
-height: 52px;
-background: #18216D;
-border-radius: 6px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 20px;
-right: 100px;
-/* identical to box height, or 118% */
-
-
+    width: 136px;
+    height: 52px;
+    background: #18216D;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    right: 100px;
 color: #FFFFFF;
 }
 
