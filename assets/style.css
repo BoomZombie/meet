@@ -71,18 +71,39 @@ height: 5354px;
 .header__block1 {
     display: flex;
     align-items: center;
+    position: absolute;
+    width: 114px;
+    height: 32px;
+    left: 100px;
+    top: 35px;
 }
 
 .header__block2 {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    position: absolute;
+    width: 507px;
+    height: 20px;
+    left: 324px;
+    top: 41px;
+    gap: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #18216D;
 }
 
 .header__block3 {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
     align-items: center;
-    justify-items: end;
+    position: absolute;
+    width: 239px;
+    height: 52px;
+    left: 1261px;
+    top: 25px;
+    gap: 40px;
 }
 
 a {
