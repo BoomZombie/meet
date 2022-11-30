@@ -51,15 +51,6 @@
          url('../assets/fonts/inter-v12-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
 }
 
-
-
-body {
-    position: relative;
-width: 1600px;
-height: 5354px;
-}
-
-
 /* HEADER */
 .header {
     display: flex;
@@ -101,13 +92,12 @@ height: 5354px;
     position: absolute;
     width: 239px;
     height: 52px;
-    left: 1261px;
+    left:950px;
     top: 25px;
     gap: 40px;
 }
 
 .header-link__signin {
-    position: absolute;
     width: 58px;
     height: 20px;
     font-family: 'Inter';
@@ -115,8 +105,7 @@ height: 5354px;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    right: 281px;
-color: #18216D;
+    color: #18216D;
 }
 
 a {
@@ -129,7 +118,6 @@ a {
 }
 
 .header__button {
-    position: absolute;
     width: 136px;
     height: 52px;
     background: #18216D;
@@ -139,8 +127,7 @@ a {
     font-weight: 500;
     font-size: 17px;
     line-height: 20px;
-    right: 100px;
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .circle{
@@ -150,6 +137,7 @@ color: #FFFFFF;
     background: url(/assets/images/Ellipse.png);
     width: 766px;
     height: 766px;
+    z-index: 0;
 }
 
 
@@ -209,13 +197,15 @@ color: #FFFFFF;
     font-size: 17px;
     line-height: 21px;
     color: #18216D;
+    z-index: 1;
 }
 .main-parte1__article2{
     justify-self: start;
     width: 786px;
     height: 518.35px;
-    left: 617px;
+    left: 400px;
     top: 126.76px;
+    position: absolute;
 }
 /* PART 2 */
 .main-parte2{
@@ -569,13 +559,14 @@ p {
 
 /* FOOTER */
 .container {
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__block1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    height: 263px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -586,48 +577,54 @@ p {
 }
 
 .footer__small-block {
-    position: absolute;
     width: 248px;
     height: 52px;
     left: 215px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__small-block1{
-    position: absolute;
     width: 98px;
     height: 200px;
     left: 518px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__small-block2{
-    position: absolute;
     width: 117px;
     height: 200px;
     left: 715px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__small-block3{
-    position: absolute;
     width: 68px;
     height: 200px;
     left: 915px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__small-block4{
-    position: absolute;
     width: 300px;
     height: 120px;
     left: 1111px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__block2 {
-    position: absolute;
     width: 1170px;
     height: 0px;
     left: 215px;
     top: 4470px;
     opacity: 0.1;
     border: 1px solid #18216D;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -640,7 +637,6 @@ h2 {
 }
 
 .footer__block3 {
-    position: absolute;
     width: 292px;
     height: 24px;
     left: 654px;
