@@ -692,8 +692,8 @@ h2 {
     }
     /* PART 1*/
     .main-parte1{
-        display: flex; 
-        flex-direction: column;  
+        display: flex;
+        flex-direction: column;
     }
     .main-parte1__article1{
         display: flex;
@@ -713,7 +713,7 @@ h2 {
         color: #18216D;
     }
     .main-parte1__article1-text2{
-        display: flex;
+        
         width: 280px;
         height: 56px;
         left: 48px;
