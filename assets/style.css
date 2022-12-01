@@ -526,7 +526,7 @@ padding: 50px;
     width: 135px;
     height: 48px;
     color: #18216D;
-    border: none;
+    border:#3d66a4;
     background-color: transparent;
 }
 
@@ -542,6 +542,7 @@ padding: 50px;
     color: #18216D;
     font-family: 'Inter';
     font-style: normal;
+    background: #FAFAFA;
 }
 
 .testimonial { 
