@@ -143,7 +143,7 @@ a {
 color: #FFFFFF;
 }
 
-.circle{
+.circle {
     float: left;
     position: absolute;
     z-index: 100;
@@ -151,7 +151,6 @@ color: #FFFFFF;
     width: 766px;
     height: 766px;
 }
-
 
 /* PART 1*/
 .main-parte1{
@@ -290,16 +289,16 @@ color: #FFFFFF;
 }
 /* PART 3 */
 .main-parte3__Features{
-display: flex;
-justify-content:center;
-align-items:center;
-font-family: 'Arial';
-font-style: 'Semi Bold';
-font-weight: 600;
-font-size: 48px;
-line-height: 64px;
-letter-spacing: -1px;
-color: #18216D ;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Arial';
+    font-style: 'Semi Bold';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #18216D ;
 }
 .main-parte3__Features-text{
     font-family: 'Arial';
@@ -656,4 +655,171 @@ h2 {
 
 .footer__small-block {
     display: grid;
+}
+
+
+@media screen and (max-width: 400px) {
+    /* HEADER */
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .header__block1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 70.4px;
+        height: 20px;
+        left: 16px;
+        top: 54px;
+    }
+    .header__block2 {
+        display: none;
+    }
+    .header__block3 {
+        display: none;
+    }
+    .circle{
+        float: left;
+        position: absolute;
+        z-index: 100;
+        background: url(/assets/images/Ellipse.png);
+        width: 766px;
+        height: 766px;
+    }
+    /* PART 1*/
+    .main-parte1{
+        display: flex; 
+        flex-direction: column;  
+    }
+    .main-parte1__article1{
+        display: flex;
+        
+    }
+    .main-parte1__article1-text1{
+        display: flex;
+        width: 291px;
+        height: 54px;
+        left: 42px;
+        top: 115px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 27px;
+        color: #18216D;
+    }
+    .main-parte1__article1-text2{
+        display: flex;
+        width: 280px;
+        height: 56px;
+        left: 48px;
+        top: 189px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #18216D;
+    }
+    .main-parte1__article1-button{
+        width: 120px;
+        height: 40px;
+        left: 128px;
+        top: 278px;
+        background: #00ECD0;
+        border-radius: 6px;
+        border-color:#00ECD0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #18216D;
+    }
+    .main-parte1__article2{
+        display: flex;
+        width: 350.02px;
+        height: 300px;
+        left: 12px;
+        top: 359px;
+    } 
+    /* PART 2*/
+    .main-parte2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;       
+    }
+    .main-parte2__text{
+        display: flex;
+        text-align: center;
+        width: 330px;
+        height: 90px;
+        left: 24px;
+        top: 718px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #18216D;
+    }
+    .main-parte2__downloads{
+        display: flex;
+        width: 72.18px;
+        height: 60px;
+        left: 96px;
+        top: 830px;
+    }
+    .main-parte2__rating{
+        display: flex;
+        width: 55.16px;
+        height: 60px;
+        left: 244px;
+        top: 830px;
+    }
+    .main-parte2__collaboration-companies{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        height: 16px;
+        left: 22px;
+        top: 912px;
+    }
+    .logo1{
+        display: flex;
+        width: 51.43px;
+        height: 16px;
+        left: 22px;
+        top: 912px;
+    }
+    .logo2{
+        display: flex;
+        width: 48px;
+        height: 13.71px;
+        left: 110px;
+        top: 913.14px;
+    }
+    .logo3{
+        display: flex;
+        width: 48px;
+        height: 16px;
+        left: 194.57px;
+        top: 912px;
+    }
+    .logo4{
+        display: flex;
+        width: 69.71px;
+        height: 14.86px;
+        left: 279.14px;
+        top: 912.57px;
+    }
+    .logo5, .logo6{
+        display: none;
+    }
+    /* PART 3 */
+    
+    
 }
