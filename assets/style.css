@@ -149,7 +149,7 @@ a {
 .main-parte1__article1{
     display: flex;
     flex-direction: column;
-    margin: 90px;
+    margin: 88px;
 }
 .main-parte1__article1-text1{
     display: block;
@@ -209,7 +209,8 @@ a {
 /* PART 2 */
 .main-parte2{
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
+    margin: 15px;  
 }
 .main-parte2__text{
     display: block;
@@ -239,7 +240,7 @@ a {
 .main-parte2__collaboration-companies{
     display: flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 92px;
 }
 .logo1{
     width: 112.12px;
