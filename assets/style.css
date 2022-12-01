@@ -749,12 +749,11 @@ h2 {
     /* PART 2*/
     .main-parte2{
         display: flex;
-        flex-direction: column;
-        text-align: center;       
+        
+    
     }
     .main-parte2__text{
         display: flex;
-        text-align: center;
         width: 330px;
         height: 90px;
         left: 24px;
