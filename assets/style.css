@@ -283,7 +283,7 @@ a {
     display: flex;
     justify-content:center;
     align-items:center;
-    font-family: 'Arial';
+    font-family: 'Inter';
     font-style: 'Semi Bold';
     font-weight: 600;
     font-size: 48px;
@@ -292,7 +292,7 @@ a {
     color: #18216D ;
 }
 .main-parte3__Features-text{
-    font-family: 'Arial';
+    font-family: 'Inter';
     font-style: 'regular';
     text-align: center;
     font-weight: 400;
@@ -303,11 +303,13 @@ a {
 }
 .main-parte3__labels{
     display: flex;
-    justify-content: space-around; 
-    font-family: 'Arial';
+    justify-content: space-around ; 
+    font-family: 'Inter';
     color: #18216D;
     text-decoration: none;
     padding-bottom: 50px;
+    
+    left: 215px;
 }
 .main-parte3__labels_percent_title{
     padding-top: 30px;
@@ -355,7 +357,7 @@ padding: 50px;
     font-style: 'regular';
     text-align: center;
     margin:auto ;
-    font-family: 'Arial';
+    font-family: 'Inter';
     color: #18216D;
     text-align: left;
 }
@@ -820,6 +822,72 @@ h2 {
         display: none;
     }
     /* PART 3 */
+    .main-parte3__Features{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        font-family: 'Inter';
+        font-style: 'Semi Bold';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -1px;
+        color: #18216D ;
+        padding-top: 50px;
+        padding-bottom: 12px;
+    }
+    .main-parte3__Features-text{
+        font-family: 'Inter';
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #18216D;
+        padding-bottom: 40px;
+    }
+    .main-parte3__labels{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around ; 
+        font-family: 'Inter';
+        color: #18216D;
+        text-decoration: none;
+        padding-bottom: 50px;
+        left: 215px;
+        margin: 15px;
+    }
+    .main-parte3__labels_percent_title{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .main-parte3__labels_percent_text{
+        
+        opacity: 0.6;
+        font-size: 14px;
+        width: 300px;
+    
+    }
+    .main-parte3__labels_round1_title{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .main-parte3__labels_round1_text{
+        opacity: 0.6;
+        font-size: 14px;
+        width: 300px;
+    }
+    .main-parte3__labels_round2_title{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .main-parte3__labels_round2_text{
+        opacity: 0.6;
+        font-size: 14px;
+        width: 300px;
+    }
     /* PART 4 */
     .main-parte4{
     display: none;    
