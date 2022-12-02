@@ -856,20 +856,29 @@ h2 {
         left: 215px;
         margin: 15px;
     }
+    .percent{
+        display: flex;
+        width: 48px;
+        height: 48px;
+    }
     .main-parte3__labels_percent_title{
-        padding-top: 30px;
+        padding-top: 20px;
         font-weight: 600;
         font-size: 20px;
     }
     .main-parte3__labels_percent_text{
-        
         opacity: 0.6;
         font-size: 14px;
         width: 300px;
-    
+    }
+    .round1{
+            display: flex;
+            width: 37px;
+            height: 48px;
+            margin-top: 30px;
     }
     .main-parte3__labels_round1_title{
-        padding-top: 30px;
+        padding-top: 20px;
         font-weight: 600;
         font-size: 20px;
     }
@@ -878,8 +887,14 @@ h2 {
         font-size: 14px;
         width: 300px;
     }
+    .round2{
+        display: flex;
+            width: 48px;
+            height: 48px;
+            margin-top: 30px;
+    }
     .main-parte3__labels_round2_title{
-        padding-top: 30px;
+        padding-top: 20px;
         font-weight: 600;
         font-size: 20px;
     }
