@@ -743,7 +743,6 @@ h2 {
         width: 100%;
         height: 260px;
         margin-top: 20px;
-       
     } 
     /* PART 2*/
     .main-parte2{
@@ -753,8 +752,8 @@ h2 {
         margin: 0px;
     }
     .main-parte2__content{
-       width: 100%;
-       height: 100px;
+        width: 100%; 
+        height: 100px;
     }
     .main-parte2__text{
         display: flex;
@@ -821,8 +820,24 @@ h2 {
         display: none;
     }
     /* PART 3 */
+    /* PART 4 */
+    .main-parte4{
+    display: none;    
+    }
     /* PART 5 */ 
     .main-parte5{
+        display: none;
+    }
+    /* PART 6 */
+    .containerfor6{
+        display: none;
+    } 
+    /* PART 7 */
+    .flex-container {
+        display: none;
+    }
+    /* FOOTER */
+    .footer {
         display: none;
     }
     
