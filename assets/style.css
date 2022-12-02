@@ -133,7 +133,7 @@ a {
 .circle {
     float: left;
     position: absolute;
-    z-index: 100;
+    z-index: 1;
     background: url(/assets/images/Ellipse.png);
     width: 766px;
     height: 766px;
@@ -662,10 +662,7 @@ h2 {
 @media screen and (max-width: 400px) {
     /* HEADER */
     .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-       
+        padding: 50px;
     }
     .header__block1 {
         display: flex;
@@ -683,110 +680,114 @@ h2 {
         display: none;
     }
     .circle{
-        float: left;
-        position: absolute;
-        z-index: 100;
-        background: url(/assets/images/Ellipse.png);
-        width: 766px;
-        height: 766px;
+        width: 394px;
+        height: 394px;
+        left: -111px;
+        top: -20px;
+        background: #FF523D;
+        opacity: 0.05;
+        filter: blur(75px);
     }
     /* PART 1*/
     .main-parte1{
         display: flex;
         flex-direction: column;
+        margin: 0px;
+        margin-top: 30px;
     }
     .main-parte1__article1{
-        display: flex;
-        
+        align-content: center;
+        width: 100%;
+        margin: 0px;
     }
     .main-parte1__article1-text1{
         display: flex;
+        margin-left: 55px;
+        align-self: center;
+        text-align: center;
         width: 291px;
         height: 54px;
         left: 42px;
         top: 115px;
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 600;
         font-size: 28px;
         line-height: 27px;
-        color: #18216D;
     }
     .main-parte1__article1-text2{
-        
+        display: flex;
         width: 280px;
         height: 56px;
         left: 48px;
         top: 189px;
-        font-family: 'Inter';
-        font-style: normal;
+        margin: 20px;
+        margin-left: 58px;
+        align-self: center;
+        text-align: center;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        color: #18216D;
     }
     .main-parte1__article1-button{
+        align-self: center;
         width: 120px;
         height: 40px;
         left: 128px;
         top: 278px;
-        background: #00ECD0;
-        border-radius: 6px;
-        border-color:#00ECD0;
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #18216D;
     }
     .main-parte1__article2{
         display: flex;
-        width: 350.02px;
-        height: 300px;
-        left: 12px;
-        top: 359px;
+        position: static;
+        width: 100%;
+        height: 260px;
+        margin-top: 20px;
+       
     } 
     /* PART 2*/
     .main-parte2{
-        display: flex;
-        
-    
+        flex-wrap: wrap;
+        width: 100%;
+        height: 280px;
+        margin: 0px;
+    }
+    .main-parte2__content{
+       width: 100%;
+       height: 100px;
     }
     .main-parte2__text{
         display: flex;
-        width: 330px;
-        height: 90px;
+        width: 80%;
+        height: 115px;
         left: 24px;
         top: 718px;
-        font-family: 'Inter';
-        font-style: normal;
+        margin: 15px;
         font-weight: 600;
         font-size: 20px;
         line-height: 30px;
-        color: #18216D;
     }
     .main-parte2__downloads{
         display: flex;
-        width: 72.18px;
-        height: 60px;
+        justify-content: center;
+        height: 70px;
         left: 96px;
         top: 830px;
     }
     .main-parte2__rating{
         display: flex;
-        width: 55.16px;
-        height: 60px;
+        justify-content: center;
+        height: 70px;
         left: 244px;
         top: 830px;
     }
     .main-parte2__collaboration-companies{
-        display: flex;
-        justify-content: space-between;
-        width: 350px;
-        height: 16px;
+        width: 100%;
+        height: 20px;
         left: 22px;
         top: 912px;
+        padding: 0px;
+        
     }
     .logo1{
         display: flex;
@@ -820,6 +821,9 @@ h2 {
         display: none;
     }
     /* PART 3 */
-    
+    /* PART 5 */ 
+    .main-parte5{
+        display: none;
+    }
     
 }
