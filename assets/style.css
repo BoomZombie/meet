@@ -208,6 +208,11 @@ a {
     left: 835px;
     top: 126.76px;
 }
+
+.main-parte1__picture {
+    width: 500px;
+}
+
 /* PART 2 */
 .main-parte2{
     display: flex;
@@ -578,6 +583,7 @@ p {
     align-items: center;
     margin-left: 120px;
     margin-bottom: 50px;
+    margin-top: 120px;
 }
 
 .footer__block1 {
@@ -665,6 +671,7 @@ h2 {
     line-height: 24px;
     color: #18216D;
     opacity: 0.8;
+    margin-top: 20px;
 }
 
 .footer__small-block {
