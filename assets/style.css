@@ -504,12 +504,13 @@ padding: 50px;
     color: #FFFFFF;
 }
 /* PART 6 */
-.col-4 {
+.col-sm-3 {
     border-radius: 10px;
     border: #232629;
+    left: 11px;
 }
 
-.container {
+.containerfor6 {
     color: #18216D;
     font-family: 'Inter';
     font-style: normal;
@@ -517,33 +518,45 @@ padding: 50px;
 
 .text-center {
     margin: 3rem;
+    color: #18216D;
 }
 
 .buttons {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     background: url('/assets/buttons.png') no-repeat;
     width: 272px;
     height: 60px;
 }
 
-.button {
-    width: 135px;
+.button1,
+.button2 {
+    flex-grow: 1;
     height: 48px;
     color: #18216D;
-    border:#3d66a4;
-    background-color: transparent;
+    border: none;
+    background-color: #cddbf0;
 }
 
-.clicked {
-    background: white;
+.button1 {
+    position: absolute;
+    left: 690px;
+    width: 100px;
+    background-color: #FFFFFF;
+    border: 6px solid #cddbf0;
     border-radius: 6px;
-    color: #005FEC;
+}
+
+.button2 {
+    position: absolute;
+    width: 100px;
+    border-radius: 5px;
+    left: 780px;
 }
 
 .row{
     margin-left: 133px;
+    margin-right: 133px;
 }
 
 /* PART 7 */
@@ -553,13 +566,15 @@ padding: 50px;
     font-family: 'Inter';
     font-style: normal;
     background: #FAFAFA;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .testimonial { 
     margin: 215px;
 }
 
-p {
+.variations {
     font-style: italic;
 }
 
