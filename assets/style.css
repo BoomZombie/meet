@@ -301,7 +301,7 @@
 }
 /* PART 3 */
 .main-parte3 {
-    margin-left: 185px;
+    margin-left: 215px;
 }
 
 .main-parte3__Features{
@@ -322,17 +322,23 @@
     font-size: 16px;
     line-height: 30px;
     color: #18216D;
-    padding-bottom: 50px;
+    padding-bottom: 48px;
 }
 .main-parte3__labels{
     display: flex;
-    justify-content: space-around ; 
+    justify-content: space-between ; 
     font-family: 'Inter';
     color: #18216D;
     text-decoration: none;
     padding-bottom: 50px;
-    
-    left: 215px;
+    padding-right: 265px;
+}
+.learn_more{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #18216D;
 }
 .main-parte3__labels_percent_title{
     padding-top: 30px;
@@ -340,11 +346,10 @@
     font-size: 24px;
 }
 .main-parte3__labels_percent_text{
-    
     opacity: 0.6;
     font-size: 16px;
     width: 300px;
-
+    margin-bottom: 30px;
 }
 .main-parte3__labels_round1_title{
     padding-top: 30px;
@@ -355,6 +360,7 @@
     opacity: 0.6;
     font-size: 16px;
     width: 300px;
+    margin-bottom: 30px;
 }
 .main-parte3__labels_round2_title{
     padding-top: 30px;
@@ -365,6 +371,7 @@
     opacity: 0.6;
     font-size: 16px;
     width: 300px;
+    margin-bottom: 30px;
 }
 /* PART 4 */
 .main-parte4{
@@ -376,8 +383,6 @@
 .main-parte4__article{
     padding: 90px;
     display: block;
-    align-content: center;
-    text-align: center;
     font-family: 'Inter';
     color: #18216D;
     text-align: left;
@@ -395,7 +400,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-
 }
 .main-parte4__button{
     margin-top: 20px;
@@ -416,6 +420,7 @@
 .main-parte4__screen_vineo{
     width: 550px;
     margin-top: 50px;
+    margin-right: 118px;
 
 }
 /* PART 5 */
@@ -953,8 +958,7 @@ h2 {
         color: #18216D;
         text-decoration: none;
         padding-bottom: 50px;
-        left: 215px;
-        margin: 15px;
+        margin: 0.67em 
     }
     .percent{
         display: flex;
