@@ -130,6 +130,10 @@ a {
     color: #FFFFFF;
 }
 
+.header-burger {
+    display: none;
+}
+
 .circle {
     float: left;
     position: absolute;
@@ -672,7 +676,9 @@ h2 {
     /* HEADER */
     .header {
         padding: 50px;
+        justify-content: flex-end;
     }
+
     .header__block1 {
         display: flex;
         align-items: center;
@@ -697,6 +703,11 @@ h2 {
         opacity: 0.05;
         filter: blur(75px);
     }
+
+    .header-burger {
+        display: flex;
+    }
+
     /* PART 1*/
     .main-parte1{
         display: flex;
