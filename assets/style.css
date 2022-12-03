@@ -207,9 +207,10 @@ a {
 /* PART 2 */
 .main-parte2{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
     margin: 15px;  
     margin-left: 215px;
+    width: 950px;
 }
 .main-parte2__text{
     display: block;
@@ -288,7 +289,6 @@ a {
     justify-content:center;
     align-items:center;
     font-family: 'Inter';
-    font-style: 'Semi Bold';
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
@@ -297,7 +297,6 @@ a {
 }
 .main-parte3__Features-text{
     font-family: 'Inter';
-    font-style: 'regular';
     text-align: center;
     font-weight: 400;
     font-size: 16px;
@@ -358,7 +357,6 @@ padding: 50px;
     padding: 90px;
     display: block;
     align-content: center;
-    font-style: 'regular';
     text-align: center;
     font-family: 'Inter';
     color: #18216D;
@@ -836,7 +834,6 @@ h2 {
         justify-content:center;
         align-items:center;
         font-family: 'Inter';
-        font-style: 'Semi Bold';
         font-weight: 600;
         font-size: 24px;
         line-height: 24px;
