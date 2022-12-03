@@ -259,9 +259,9 @@
 }
 .main-parte2__collaboration-companies{
     display: flex;
-    justify-content: space-around;
     padding: 92px;
-    margin-left: 123px;
+    margin-left: 133px;
+    gap: 26px;
 }
 .logo1{
     width: 112.12px;
@@ -638,7 +638,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 120px;
     margin-bottom: 50px;
     margin-top: 60px;
@@ -730,6 +730,7 @@ h2 {
     color: #18216D;
     opacity: 0.8;
     margin-top: 20px;
+    margin-left: 400px;
 }
 
 .footer__small-block {
